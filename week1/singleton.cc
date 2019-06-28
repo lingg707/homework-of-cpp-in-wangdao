@@ -24,6 +24,7 @@ public:
     {
         if(_pinstance)
             delete _pinstance;//这一句会自动调用析构函数
+        cout<<"destory()"<<endl;
     }
     void print() 
     {
@@ -54,6 +55,6 @@ int main(void)
     singleton::getinstance()->print();
     cout<<"p1="<<p1<<endl
         <<"p2="<<p2<<endl;
-    singleton::destroy();
+    singleton::destroy();//手动调用了destroy方法，如果不手动，则不释放空间
     return 0;
 }
