@@ -6,4 +6,4 @@
     第三步：:
 2、静态方法destroy +atexit方法
     多线程环境下是非线程安全的
-3、 atexit+ pthread_once函数的实现，
+3、 atexit+ pthread_once函数的实现，the vision from teacher can't pass the compile
