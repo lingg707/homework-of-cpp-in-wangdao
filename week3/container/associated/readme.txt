@@ -11,6 +11,7 @@ pair的两个形参，第一个是迭代器，第二个是bool
 multimap.cc:
 multimap的特性及用法和map完全相同，唯一的不同点是multimap允许键值重复，因此底层插入
 操作采用的是红黑树的insert_equal()而非insert_unique()
+下标访问无法使用因为元素可以重复
 
 
 两个容器被定义为std里面的class templates：

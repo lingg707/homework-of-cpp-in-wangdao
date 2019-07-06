@@ -13,9 +13,13 @@ void display(const Container & c)
     for(auto & elem : c) 
     {
         cout << elem.first << " --> " << elem.second << endl;
+<<<<<<< HEAD
 
     }
 
+=======
+    }
+>>>>>>> 9317af0815095c61ba1873994c4d978a24ac8c82
 }
 
 void test0()
