@@ -33,8 +33,7 @@ void test0()
 
 	//multimap不支持下标访问运算符, 时间复杂度为 O(logN)
 	//cout << cities["010"] << endl;
-	
-
+    
 	//查找元素 find/count
 	size_t cnt = cities.count("010");
 	if(cnt) {
