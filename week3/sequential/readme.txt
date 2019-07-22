@@ -30,3 +30,7 @@ list.cc
 
 test.cc:验证 了splice函数的用法
 
+remove_erase.cc:
+实现了erase和remove的用法，remove_if中，使用了lambda表达式，实现了满足一定条件的
+数据的删除
+
