@@ -189,7 +189,7 @@ void test3()
 
 int main(void)
 {
-    test3();
+    test0();
     //test1();
     //test2();
     //test3();

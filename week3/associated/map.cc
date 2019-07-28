@@ -13,13 +13,8 @@ void display(const Container & c)
     for(auto & elem : c) 
     {
         cout << elem.first << " --> " << elem.second << endl;
-<<<<<<< HEAD
 
     }
-
-=======
-    }
->>>>>>> 9317af0815095c61ba1873994c4d978a24ac8c82
 }
 
 void test0()
@@ -86,9 +81,9 @@ void test1()
             pair<string, string>("021", "上海"),
             std::make_pair("0755", "深圳"),
             std::make_pair("022", "天津"),
-            std::make_pair("0755", "广州")
+            std::make_pair("0755", "广州")//自动忽略重复的字符，无法输出
     };
-    display(cities);
+    display(cities);//好像是默认降序
 
     //map支持下标访问运算符, 时间复杂度为 O(logN)
     cout << cities["010"] << endl;
